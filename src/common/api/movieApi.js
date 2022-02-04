@@ -1,1 +1,1 @@
-export const url = "http://www.omdbapi.com/";
+export const url = "https://www.omdbapi.com/";
