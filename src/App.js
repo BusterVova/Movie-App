@@ -15,6 +15,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/Movie-App/" exact element={<Home />} />
           <Route path="/movie/:imdbID" element={<MovieDetails />} />
           <Route path="/favourites/:imdbID" element={<FavouriteDetails />} />
           <Route path="/favourites" element={<Favourites />} />
